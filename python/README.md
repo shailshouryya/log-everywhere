@@ -1,4 +1,4 @@
-# log_everywhere Python API
+# `log_everywhere` Python API
 
 <p align="center">
   <a href="https://github.com/Shail-Shouryya/log_everywhere/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Shail-Shouryya/log_everywhere?color=yellow&labelColor=black"></a>

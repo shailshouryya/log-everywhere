@@ -18,3 +18,21 @@
   <br>
   <a href="https://codebeat.co/projects/github-com-shail-shouryya-log_everywhere-master"><img src="https://codebeat.co/badges/46b103ed-da79-4893-96af-ce95c9149532" alt="codebeat badge"/></a>
 </p>
+
+<details>
+  <summary><b>Usage Statistics</b></summary>
+
+- [PePy](https://pepy.tech/project/log-everywhere)
+- [PyPi Stats](https://pypistats.org/packages/log-everywhere)
+</details>
+<p>
+  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Daily Downloads" src="https://img.shields.io/pypi/dd/log_everywhere?labelColor=black&color=blue&label=PyPI%20downloads"></a>
+  <br>
+  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Weekly Downloads" src="https://img.shields.io/pypi/dw/log_everywhere?labelColor=black&color=yellow&label=PyPI%20downloads"></a>
+  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Weekly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=week&units=international_system&left_color=black&right_color=blue&left_text=PePY%20Downloads/week"></a>
+  <br>
+  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Monthly Downloads" src="https://img.shields.io/pypi/dm/log_everywhere?labelColor=black&color=blue&label=PyPI%20downloads"></a>
+  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Monthly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=month&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads/month"></a>
+  <br>
+  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Total Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=total&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads%20Total"></a>
+</p>

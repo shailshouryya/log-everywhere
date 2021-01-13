@@ -4,8 +4,8 @@ at which every logged event happenes to multiple, DIFFERENT files
 safely when running multiple threads
 (multi-threading with python standard library's `threading` package).
 '''
-from .core import yield_logger
-from .core import log
+from .logger import yield_logger
+from .logger import log
 
 '''
 version:              0.0.0

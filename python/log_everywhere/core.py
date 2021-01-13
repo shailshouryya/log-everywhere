@@ -8,8 +8,9 @@ NEWLINE = '\n'
 
 
 @contextlib.contextmanager
-def yield_logger(file_name, log_silently=False):
-    log_file = f'{file_name}.log'
+def yield_logger(filepath, log_silently=False):
+    filepath = filepath.strip('.log')
+    log_file = f'{filepath}.log'
     with open (log_file, 'a', encoding='utf-8') as output_location:
         if log_silently is True: yield (output_location,)
         else:                    yield (output_location, sys.stdout)

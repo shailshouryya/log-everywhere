@@ -35,6 +35,9 @@
   <img alt="GitHub commits since latest release (by SemVer including pre-releases)" src="https://img.shields.io/github/commits-since/Shail-Shouryya/log-everywhere/latest/main?color=pink&labelColor=black&include_prereleases">
 </p>
 
+## API Guide
+### [python](https://github.com/Shail-Shouryya/log-everywhere/tree/main/python)
+
 <details>
   <summary><b>Usage Statistics</b></summary>
 

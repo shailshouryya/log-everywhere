@@ -9,6 +9,13 @@ NEWLINE = '\n'
 
 @contextlib.contextmanager
 def yield_logger(filepath, log_silently=False):
+    '''
+    Requires a string for the filepath argument and accepts an optional boolean for the log_silently argument.
+    The provided filepath will be the location all messages will be logged to.
+
+    If log_silently is not set or is set to False, all messages will ALSO be logged to the console.
+    If log_silently is set to True, all messages will be logged to ONLY the filepath.
+    '''
     filepath = filepath.strip('.log')
     log_file = f'{filepath}.log'
     with open (log_file, 'a', encoding='utf-8') as output_location:

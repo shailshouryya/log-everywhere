@@ -7,17 +7,6 @@ safely when running multiple threads
 from .logger import yield_logger
 from .logger import log
 
-'''
-version:              0.0.0
-author:               Shail-Shouryya
-email:                shailshouryya@gmail.com
-development_status:   4 - Beta
-intended_audience:    Developers
-license:              OSI Approved :: Apache License 2.0
-ideal_python_version: Python 3.6+
-source:               https://github.com/Shail-Shouryya/log-everywhere/python
-'''
-
 
 __version__              = '0.0.0'
 __author__               = 'Shail-Shouryya'

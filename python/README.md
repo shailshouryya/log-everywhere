@@ -26,13 +26,11 @@
 - [PyPi Stats](https://pypistats.org/packages/log-everywhere)
 </details>
 <p>
-  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Daily Downloads" src="https://img.shields.io/pypi/dd/log-everywhere?labelColor=black&color=blue&label=PyPI%20downloads"></a>
+  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Daily Downloads" src="https://img.shields.io/pypi/dd/log-everywhere?labelColor=black&color=blue&label=PyPI%20downloads%20%28excludes%20mirrors%29" width="275"></a>
+  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Weekly Downloads" src="https://img.shields.io/pypi/dw/log-everywhere?labelColor=black&color=yellow&label=PyPI%20downloads%20%28excludes%20mirrors%29"width="275"></a>
+  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Monthly Downloads" src="https://img.shields.io/pypi/dm/log-everywhere?labelColor=black&color=blue&label=PyPI%20downloads%20%28excludes%20mirrors%29"width="275"></a>
   <br>
-  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Weekly Downloads" src="https://img.shields.io/pypi/dw/log-everywhere?labelColor=black&color=yellow&label=PyPI%20downloads"></a>
-  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Weekly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=week&units=international_system&left_color=black&right_color=blue&left_text=PePY%20Downloads/week"></a>
-  <br>
-  <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Monthly Downloads" src="https://img.shields.io/pypi/dm/log-everywhere?labelColor=black&color=blue&label=PyPI%20downloads"></a>
-  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Monthly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=month&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads/month"></a>
-  <br>
-  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Total Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=total&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads%20Total"></a>
+  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Weekly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=week&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads/week%20%28includes%20mirrors%29" width="275"></a>
+  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Monthly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=month&units=international_system&left_color=black&right_color=blue&left_text=PePY%20Downloads/month%20%28includes%20mirrors%29" width="275"></a>
+  <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Total Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=total&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads%20Total%20%28includes%20mirrors%29" width="275"></a>
 </p>

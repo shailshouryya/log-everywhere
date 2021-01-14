@@ -32,7 +32,6 @@ def log(message, logging_locations, show_thread=True):
     '''
     thread_name = ''
     if show_thread:
-        thread_name = threading.current_thread().name
         thread_name = f'[{threading.current_thread().name}]'
     isoformat   = datetime.datetime.isoformat
     now         = datetime.datetime.now

@@ -1,7 +1,7 @@
 '''
 Logging package to enable writing the corresponding datetime
-at which every logged event happenes to multiple, DIFFERENT files
-safely when running multiple threads
+at which every logged event happenes to
+multiple, DIFFERENT files safely when running multiple threads
 (multi-threading with python standard library's `threading` package).
 '''
 from .logger import yield_logger

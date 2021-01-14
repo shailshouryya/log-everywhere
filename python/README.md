@@ -104,3 +104,5 @@ help(log_everywhere)
   <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Monthly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=month&units=international_system&left_color=black&right_color=blue&left_text=PePY%20Downloads/month%20%28includes%20mirrors%29" width="275"></a>
   <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Total Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=total&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads%20Total%20%28includes%20mirrors%29" width="275"></a>
 </p>
+
+If you found this interesting or useful, **please consider starring this repo** on [GitHub](https://github.com/Shail-Shouryya/log-everywhere) so other people can more easily find and use this. Thanks!

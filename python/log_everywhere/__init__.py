@@ -3,6 +3,9 @@ Logging package to enable writing the corresponding datetime
 at which every logged event happenes to
 multiple, DIFFERENT files safely when running multiple threads
 (multi-threading with python standard library's `threading` package).
+
+🌟 Star 🌟 this repo on GitHub if you found it useful!
+https://github.com/Shail-Shouryya/log-everywhere
 '''
 from .logger import yield_logger
 from .logger import log

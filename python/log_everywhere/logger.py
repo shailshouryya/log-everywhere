@@ -9,10 +9,10 @@ import contextlib
 def yield_logger(filepath, log_silently=False):
     '''
     Requires a string for the filepath argument and accepts an optional boolean for the log_silently argument.
-    The provided filepath will be the location all messages will be logged to.
+    Creates a file at the specified filepath (if it doesn't already exist) and appends all messages to this location.
 
-    If log_silently is not set or is set to False, all messages will ALSO be logged to the console.
-    If log_silently is set to True, all messages will be logged to ONLY the filepath.
+    Logs all messages to the filepath AND console if log_silently is not set or is set to False.
+    Logs all messages to the filepath ONLY if log_silently is set to True.
     '''
     filepath = filepath.strip('.log')
     log_file = f'{filepath}.log'
@@ -23,7 +23,7 @@ def yield_logger(filepath, log_silently=False):
 
 def log(message, logging_locations):
     '''
-    Pass in a string for the message argument and the context manager object
+    Accepts a string for the message argument and the context manager object
     created with yield_logger as the logging_locations argument.
 
     Logs the provided message to every location in logging_locations.

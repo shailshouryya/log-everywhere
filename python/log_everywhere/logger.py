@@ -33,8 +33,9 @@ def log(message, logging_locations, show_thread=True):
     thread_name = ''
     if show_thread:
         thread_name = f'[{threading.current_thread().name}]'
-    isoformat   = datetime.datetime.isoformat
-    now         = datetime.datetime.now
-    message     = f'===>{thread_name:>>14} {isoformat(now())}: {message}\n'
+    isoformat    = datetime.datetime.isoformat
+    now          = datetime.datetime.now
+    current_time = isoformat(now())
+    message     = f'===>{thread_name:>>14} {current_time}: {message}\n'
     for location in logging_locations:
         location.writelines(message)

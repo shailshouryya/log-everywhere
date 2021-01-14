@@ -81,6 +81,10 @@ help(log_everywhere.logger)
 
 from log_everywhere import logger
 help(logger)
+
+# SEEING PACKAGE METADATA
+import log_everywhere
+help(log_everywhere)
 ```
 
 </details>

@@ -67,6 +67,25 @@ To see more interesting logging modifications, see the **significantly improves 
 </details>
 
 <details>
+  <summary><b>Seeing <b>all</b> available functions for the <code>log-everywhere</code> package</b></summary>
+
+```
+python3     # MacOS/Linux
+python      # Windows
+```
+```python
+import log_everywhere
+help(log_everywhere.logger)
+
+# OR
+
+from log_everywhere import logger
+help(logger)
+```
+
+</details>
+
+<details>
   <summary><b>Usage Statistics</b></summary>
 
 - [PePy](https://pepy.tech/project/log-everywhere)

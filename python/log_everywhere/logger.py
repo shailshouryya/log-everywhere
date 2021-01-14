@@ -21,7 +21,7 @@ def yield_logger(filepath, log_silently=False):
         else:                    yield (output_location, sys.stdout)
 
 
-def log(message, logging_locations):
+def log(message, logging_locations, show_thread=True):
     '''
     Accepts a string for the message argument and the context manager object
     created with yield_logger as the logging_locations argument.
@@ -30,8 +30,10 @@ def log(message, logging_locations):
 
     The logging_locations argument is an iterable of _io.TextIOWrapper objects.
     '''
-    thread_name = threading.current_thread().name
-    thread_name = f'[{threading.current_thread().name}]'
+    thread_name = ''
+    if show_thread:
+        thread_name = threading.current_thread().name
+        thread_name = f'[{threading.current_thread().name}]'
     isoformat   = datetime.datetime.isoformat
     now         = datetime.datetime.now
     message     = f'===>{thread_name:>>14} {isoformat(now())}: {message}\n'

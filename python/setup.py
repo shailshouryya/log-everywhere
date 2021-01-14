@@ -11,7 +11,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name                          = 'log_everywhere',
-    version                       = '0.0.0',
+    version                       = '0.0.1',
     description                   = 'Logging package to enable writing all program information with corresponding datetime to multiple, DIFFERENT files safely when running multiple threads (multi-threading).',
     long_description              = long_description,
     long_description_content_type = 'text/markdown',

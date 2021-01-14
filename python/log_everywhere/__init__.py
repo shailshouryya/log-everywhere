@@ -11,7 +11,7 @@ from .logger import yield_logger
 from .logger import log
 
 
-__version__              = '0.0.0'
+__version__              = '0.0.1'
 __author__               = 'Shail-Shouryya'
 __email__                = 'shailshouryya@gmail.com'
 __development_status__   = '4 - Beta'

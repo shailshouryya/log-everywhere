@@ -53,7 +53,9 @@ def do_important_things(log_locations):
 
 def main():
     with yield_logger('name_of_my_log_file', log_silently=False) as log_locations:
+        log('>' * 50 + 'STARTING PROGRAM' + '<' * 50, log_locations)
         do_important_things(log_locations)
+        log('>' * 50 + 'PROGRAM COMPLETE' + '<' * 50, log_locations)
 
 main()
 ```

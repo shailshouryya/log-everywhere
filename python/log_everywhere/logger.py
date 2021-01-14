@@ -4,8 +4,6 @@ import threading
 
 import contextlib
 
-NEWLINE = '\n'
-
 
 @contextlib.contextmanager
 def yield_logger(filepath, log_silently=False):

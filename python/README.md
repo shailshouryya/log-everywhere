@@ -34,6 +34,39 @@ pip  install -U log-everywhere     # Windows
 </details>
 
 <details>
+  <summary><b>Using the <code>log-everywhere</code> package</b></summary>
+
+```
+python3     # MacOS/Linux
+python      # Windows
+```
+```python
+from log_everywhere import yield_logger
+from log_everywhere import log
+
+def do_important_things(log_locations):
+    num = 1 + 1
+    log(f'This function calculated num to be: {num}', log_locations)
+    product = num * 2
+    log(f'This function calculated the product of num multiplied by 2 to be: {product}', log_locations)
+    log( 'This function is now closing...', log_locations)
+
+def main():
+    with yield_logger('name_of_my_log_file', log_silently=False) as log_locations:
+        do_important_things(log_locations)
+
+main()
+```
+To see why [Python Standard Library](https://docs.python.org/3/library/)'s [logging](https://docs.python.org/3/library/logging.html) module was insufficient and creating a custom logger was necessary, [see this modification in the `yt_videos_list` package](https://github.com/Shail-Shouryya/yt_videos_list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4). NOTE that the exact implementation differed slighlty in this commit (`yield_logger()` was named `yield_file_writer()`), and support for logging to both the console AND the log file [wasn't added until this commit](https://github.com/Shail-Shouryya/yt_videos_list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
+
+Direct link to commits:
+  - [Simplify logging via custom context manager text writer](https://github.com/Shail-Shouryya/yt_videos_list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4)
+  - [Always log to log file but allow console logging muting](https://github.com/Shail-Shouryya/yt_videos_list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
+
+To see more interesting logging modifications, see the **significantly improves logging** section nested within the **details** section of the `yt_videos_list` package [0.5.0 Release](https://github.com/Shail-Shouryya/yt_videos_list/releases/tag/v0.5.0) page!
+</details>
+
+<details>
   <summary><b>Usage Statistics</b></summary>
 
 - [PePy](https://pepy.tech/project/log-everywhere)

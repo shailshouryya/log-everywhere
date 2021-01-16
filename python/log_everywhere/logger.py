@@ -25,6 +25,8 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
     '''
     Accepts a string for the message argument and the context manager object
     created with yield_logger as the logging_locations argument.
+    Accepts a boolean for the show_thread and show_datetime arguments
+    and a string for the pad argument.
 
     Logs the provided message to every location in logging_locations.
 

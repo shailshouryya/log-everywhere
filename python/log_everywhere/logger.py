@@ -32,8 +32,8 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
 
     The logging_locations argument is an iterable of _io.TextIOWrapper objects.
 
-    Prepends thread name to all messages if show_thread is True (default).
-    Prepends datetime    to all messages if show_datetime is True (default; added after the thread name if show_thread is also True).
+    Prepends thread name to all messages if show_thread is True (DEFAULT).
+    Prepends datetime    to all messages if show_datetime is True (DEFAULT; added after the thread name if show_thread is also True).
     Prepends string provided to all messages if pad is specified, otherwise prepends all messages with: ===>
       ->> to prepend nothing, use: pad=''
     '''

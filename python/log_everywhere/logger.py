@@ -30,6 +30,13 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
         log('An important message', locations)
     ```
 
+    To log to only the log file and mute logging to the console:
+
+    ```
+    with yield_logger('log_name', log_silently=True) as locations:
+        log('An important message', locations)
+    ```
+
     Accepts a string for the message argument and the context manager object
     created with yield_logger as the logging_locations argument.
     Accepts a boolean for the show_thread and show_datetime arguments
@@ -49,6 +56,13 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
 
     ```
     with yield_logger('log_name') as locations:
+        log('An important message', locations, show_thread=False, show_datetime=False, pad='')
+    ```
+
+    To log to only messages and no information to the log file and mute logging to the console:
+    ```
+
+    with yield_logger('log_name', log_silently=True) as locations:
         log('An important message', locations, show_thread=False, show_datetime=False, pad='')
     ```
     '''

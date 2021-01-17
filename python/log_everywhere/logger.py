@@ -33,6 +33,7 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
     The logging_locations argument is an iterable of _io.TextIOWrapper objects.
 
     Prepends thread name to all messages if show_thread is True (default).
+    Prepends datetime    to all messages if show_datetime is True (default; added after the thread name if show_thread is also True)
     '''
     thread_name  = ''
     current_time = ''

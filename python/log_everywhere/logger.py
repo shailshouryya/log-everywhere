@@ -1,3 +1,10 @@
+'''
+Import module with:
+```
+from log_everywhere import yield_logger
+from log_everywhere import log
+```
+'''
 import sys
 import datetime
 import threading

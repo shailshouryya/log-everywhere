@@ -23,6 +23,13 @@ def yield_logger(filepath, log_silently=False):
 
 def log(message, logging_locations, show_thread=True, show_datetime=True, pad='===>'):
     '''
+    Usage example:
+
+    ```
+    with yield_logger('log_name') as locations:
+        log('An important message', locations)
+    ```
+
     Accepts a string for the message argument and the context manager object
     created with yield_logger as the logging_locations argument.
     Accepts a boolean for the show_thread and show_datetime arguments
@@ -36,6 +43,14 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
     Prepends datetime    to all messages if show_datetime is True (DEFAULT; added after the thread name if show_thread is also True).
     Prepends string provided to all messages if pad is specified, otherwise prepends all messages with: ===>
       ->> to prepend nothing, use: pad=''
+
+
+    To log only messages and no information:
+
+    ```
+    with yield_logger('log_name') as locations:
+        log('An important message', locations, show_thread=False, show_datetime=False, pad='')
+    ```
     '''
     thread_name  = ''
     current_time = ''

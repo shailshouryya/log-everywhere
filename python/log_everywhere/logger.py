@@ -31,6 +31,8 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
     Logs the provided message to every location in logging_locations.
 
     The logging_locations argument is an iterable of _io.TextIOWrapper objects.
+
+    Prepends thread name to all messages if show_thread is True (default).
     '''
     thread_name  = ''
     current_time = ''

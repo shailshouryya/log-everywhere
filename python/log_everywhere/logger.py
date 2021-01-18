@@ -75,18 +75,12 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
     thread_name  = ''
     current_time = ''
     if show_thread:
-        thread_name = f'[{threading.current_thread().name}]'
+        thread_name = f'[{threading.current_thread().name}]' + ' '
+        thread_name = f'{thread_name:>>15}'
     if show_datetime:
         isoformat    = datetime.datetime.isoformat
         now          = datetime.datetime.now
-        current_time = isoformat(now())
-    # formatted_message keys are a tuple of (show_thread, show_datetime)
-    formatted_message = {
-        (True,  True):  f'{pad}{thread_name:>>14} {current_time} {message}\n',
-        (False, True):  f'{pad}{current_time} {message}\n',
-        (True,  False): f'{pad}{thread_name:>>14} {message}\n',
-        (False, False): f'{pad}{message}\n',
-    }
-    message = formatted_message[(show_thread, show_datetime)]
+        current_time = isoformat(now()) + ' '
+    message = f'{pad}{thread_name}{current_time}{message}\n'
     for location in logging_locations:
         location.writelines(message)

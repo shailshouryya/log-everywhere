@@ -64,6 +64,7 @@ def main():
         log('>' * 50 + 'PROGRAM COMPLETE' + '<' * 50, log_locations)
 
 main()
+# output logged to both console AND name_of_my_log_file.log
 ```
 </details>
 

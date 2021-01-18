@@ -4,6 +4,14 @@ and thread on which every logged event happenes to
 multiple, DIFFERENT files safely when running multiple threads
 (multi-threading with python standard library's `threading` package).
 
+For package usage help, run:
+
+```
+from log_everywhere import logger
+help(logger)
+```
+
+
 🌟 Star 🌟 this repo on GitHub if you found it useful!
 https://github.com/Shail-Shouryya/log-everywhere
 '''

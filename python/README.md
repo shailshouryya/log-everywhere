@@ -39,7 +39,7 @@ python  -m pip install -U log-everywhere     # Windows
 </details>
 
 <details>
-  <summary><b>Using the <code>log-everywhere</code> package</b></summary>
+  <summary><b><code>log-everywhere</code> package example usage</b></summary>
 
 Enter the following in your command line:
 ```

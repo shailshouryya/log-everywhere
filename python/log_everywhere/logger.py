@@ -18,7 +18,7 @@ def yield_logger(filepath, log_silently=False):
     Creates a file at the specified filepath (if it doesn't already exist) and appends all messages to this location.
 
     Logs all messages to the filepath AND console if log_silently is not set or is set to False.
-    Logs all messages to the filepath ONLY if log_silently is set to True.
+    Logs all messages to ONLY the filepath if log_silently is set to True.
     '''
     filepath = filepath.strip('.log')
     log_file = f'{filepath}.log'

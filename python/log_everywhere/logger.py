@@ -29,22 +29,6 @@ def yield_logger(filepath, log_silently=False):
 
 def log(message, logging_locations, show_thread=True, show_datetime=True, pad='    '):
     '''
-    Usage example:
-
-    To log information and messages to both the log file and the console:
-
-    ```
-    with yield_logger('name_of_my_log_file') as locations:
-        log('An important message', locations)
-    ```
-
-    To log information and messages to only the log file and mute logging to the console:
-
-    ```
-    with yield_logger('name_of_my_log_file', log_silently=True) as locations:
-        log('An important message', locations)
-    ```
-
     Accepts a string for the message argument and the context manager object
     created with yield_logger as the logging_locations argument.
     Accepts a boolean for the show_thread and show_datetime arguments
@@ -59,6 +43,21 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad=' 
     Prepends string provided to the pad argument to all messages if pad is specified, otherwise prepends all messages with 4 spaces.
       ->> to prepend nothing, use: pad=''
 
+    Some usage examples:
+
+    To log information and messages to both the log file and the console:
+
+    ```
+    with yield_logger('name_of_my_log_file') as locations:
+        log('An important message', locations)
+    ```
+
+    To log information and messages to only the log file and mute logging to the console:
+
+    ```
+    with yield_logger('name_of_my_log_file', log_silently=True) as locations:
+        log('An important message', locations)
+    ```
 
     To log only messages and no information to the log file and the console:
 

@@ -15,9 +15,9 @@ setup(
     description                   = 'Logging package to enable writing all program information, corresponding datetime, and thread information for every logged event to multiple, DIFFERENT files safely when running multiple threads (multi-threading).',
     long_description              = long_description,
     long_description_content_type = 'text/markdown',
-    url                           = 'https://github.com/Shail-Shouryya/log_everywhere',
+    url                           = 'https://github.com/Shail-Shouryya/log-everywhere',
     author                        = 'Shail-Shouryya',
-    author_email                  = 'yt.videos.list@gmail.com',
+    author_email                  = 'shailshouryya@gmail.com',
     license                       = 'Apache License 2.0',
 
 
@@ -211,11 +211,11 @@ setup(
 
 
     project_urls = {
-        'Bug Reports':   'https://github.com/Shail-Shouryya/log_everywhere/issues',
+        'Bug Reports':   'https://github.com/Shail-Shouryya/log-everywhere/issues',
         'PyPi Funding':  'https://donate.pypi.org',
-        'Source':        'https://github.com/Shail-Shouryya/log_everywhere',
-        'Pull requests': 'https://github.com/Shail-Shouryya/log_everywhere/pulls',
-        'Issues':        'https://github.com/Shail-Shouryya/log_everywhere/issues',
-        'Code':          'https://github.com/Shail-Shouryya/log_everywhere/tree/main/python'
+        'Source':        'https://github.com/Shail-Shouryya/log-everywhere',
+        'Pull requests': 'https://github.com/Shail-Shouryya/log-everywhere/pulls',
+        'Issues':        'https://github.com/Shail-Shouryya/log-everywhere/issues',
+        'Code':          'https://github.com/Shail-Shouryya/log-everywhere/tree/main/python'
     },
 )

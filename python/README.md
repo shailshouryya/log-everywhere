@@ -30,6 +30,12 @@ Enter the following in your command line:
 
 pip3 install -U log-everywhere     # MacOS/Linux
 pip  install -U log-everywhere     # Windows
+
+
+# if that didn't work:
+
+python3 -m pip install -U log-everywhere     # MacOS/Linux
+python  -m pip install -U log-everywhere     # Windows
 ```
 </details>
 

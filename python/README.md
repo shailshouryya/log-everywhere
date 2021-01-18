@@ -65,13 +65,6 @@ def main():
 
 main()
 ```
-To see why [Python Standard Library](https://docs.python.org/3/library/)'s [logging](https://docs.python.org/3/library/logging.html) module was insufficient and creating a custom logger was necessary, [see this modification in the `yt-videos-list` package](https://github.com/Shail-Shouryya/yt-videos-list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4). NOTE that the exact implementation differed slighlty in this commit (`yield_logger()` was named `yield_file_writer()`), and support for logging to both the console AND the log file [wasn't added until this commit](https://github.com/Shail-Shouryya/yt-videos-list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
-
-Direct link to commits:
-  - [Simplify logging via custom context manager text writer](https://github.com/Shail-Shouryya/yt-videos-list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4)
-  - [Always log to log file but allow console logging muting](https://github.com/Shail-Shouryya/yt-videos-list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
-
-To see more interesting logging modifications, see the **significantly improves logging** section nested within the **details** section of the `yt-videos-list` package [0.5.0 Release](https://github.com/Shail-Shouryya/yt-videos-list/releases/tag/v0.5.0) page!
 </details>
 
 <details>
@@ -94,7 +87,17 @@ help(logger)
 import log_everywhere
 help(log_everywhere)
 ```
+</details>
+<details>
+  <summary><b>Motivation for creating this package</b></summary>
 
+To see why [Python Standard Library](https://docs.python.org/3/library/)'s [logging](https://docs.python.org/3/library/logging.html) module was insufficient and creating a custom logger was necessary, [see this modification in the `yt-videos-list` package](https://github.com/Shail-Shouryya/yt-videos-list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4). NOTE that the exact implementation differed slighlty in this commit (`yield_logger()` was named `yield_file_writer()`), and support for logging to both the console AND the log file [wasn't added until this commit](https://github.com/Shail-Shouryya/yt-videos-list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
+
+Direct link to commits:
+  - [Simplify logging via custom context manager text writer](https://github.com/Shail-Shouryya/yt-videos-list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4)
+  - [Always log to log file but allow console logging muting](https://github.com/Shail-Shouryya/yt-videos-list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
+
+To see more interesting logging modifications, see the **significantly improves logging** section nested within the **details** section of the `yt-videos-list` package [0.5.0 Release](https://github.com/Shail-Shouryya/yt-videos-list/releases/tag/v0.5.0) page!
 </details>
 
 <details>

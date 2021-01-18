@@ -82,8 +82,8 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
         current_time = isoformat(now())
     # formatted_message keys are a tuple of (show_thread, show_datetime)
     formatted_message = {
-        (True,  True):  f'{pad}{thread_name:>>14} {current_time}: {message}\n',
-        (False, True):  f'{pad}{current_time}: {message}\n',
+        (True,  True):  f'{pad}{thread_name:>>14} {current_time} {message}\n',
+        (False, True):  f'{pad}{current_time} {message}\n',
         (True,  False): f'{pad}{thread_name:>>14} {message}\n',
         (False, False): f'{pad}{message}\n',
     }

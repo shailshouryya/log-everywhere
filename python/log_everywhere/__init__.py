@@ -1,6 +1,7 @@
 '''
-Logging package to enable writing the corresponding datetime
-and thread on which every logged event happenes to
+Logging package to enable writing all
+program information, corresponding datetime, and thread information
+for every logged event to
 multiple, DIFFERENT files safely when running multiple threads
 (multi-threading with python standard library's `threading` package).
 

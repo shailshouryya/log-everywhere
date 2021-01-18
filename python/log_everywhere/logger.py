@@ -65,7 +65,7 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
         log('An important message', locations, show_thread=False, show_datetime=False, pad='')
     ```
 
-    To log to only messages and no information to the log file and mute logging to the console:
+    To log only messages and no information to the log file and mute logging to the console:
     ```
 
     with yield_logger('name_of_my_log_file', log_silently=True) as locations:

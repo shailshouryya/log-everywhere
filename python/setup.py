@@ -174,7 +174,7 @@ setup(
         'Topic :: Text Processing :: Markup :: HTML',
         'Topic :: Utilities'
     ],
-    keywords='logging logger threading multi-threading datetime time archiving tracing debugging tracer debugger automation csv txt markdown md YouTube videos URL scraping Selenium macos windows linux',
+    keywords='logging logger log logging-library logger-middleware threading multi-threading threadsafe thread thread-safety thread-library threaded multithreading datetime time archiving tracing tracer debugging debugger automation log csv txt markdown md YouTube videos URL scraping Selenium macos windows linux',
 
 
     # http://code.nabla.net/doc/setuptools/api/setuptools/setuptools.find_packages.html

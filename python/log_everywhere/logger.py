@@ -31,12 +31,14 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad=' 
     '''
     Usage example:
 
+    To log information and messages to both the log file and the console:
+
     ```
     with yield_logger('name_of_my_log_file') as locations:
         log('An important message', locations)
     ```
 
-    To log to only the log file and mute logging to the console:
+    To log information and messages to only the log file and mute logging to the console:
 
     ```
     with yield_logger('name_of_my_log_file', log_silently=True) as locations:
@@ -58,7 +60,7 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad=' 
       ->> to prepend nothing, use: pad=''
 
 
-    To log only messages and no information:
+    To log only messages and no information to the log file and the console:
 
     ```
     with yield_logger('name_of_my_log_file') as locations:

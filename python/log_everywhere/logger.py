@@ -27,7 +27,7 @@ def yield_logger(filepath, log_silently=False):
         else:                    yield (output_location, sys.stdout)
 
 
-def log(message, logging_locations, show_thread=True, show_datetime=True, pad='===>'):
+def log(message, logging_locations, show_thread=True, show_datetime=True, pad='    '):
     '''
     Usage example:
 
@@ -54,7 +54,7 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad='=
 
     Prepends thread name to all messages if show_thread is True (DEFAULT).
     Prepends datetime    to all messages if show_datetime is True (DEFAULT; added after the thread name if show_thread is also True).
-    Prepends string provided to all messages if pad is specified, otherwise prepends all messages with: ===>
+    Prepends string provided to all messages if pad is specified, otherwise prepends all messages with: 4 spaces
       ->> to prepend nothing, use: pad=''
 
 

@@ -23,7 +23,6 @@
   <summary><b>Installing the package</b></summary>
 
 Enter the following in your command line:
-
 ```python
 # if something isn't working properly, try rerunning this
 # the problem may have been fixed with a newer version
@@ -42,6 +41,7 @@ python  -m pip install -U log-everywhere     # Windows
 <details>
   <summary><b>Using the <code>log-everywhere</code> package</b></summary>
 
+Enter the following in your command line:
 ```
 python3     # MacOS/Linux
 python      # Windows
@@ -70,6 +70,7 @@ main()
 <details>
   <summary><b>Seeing <b>all</b> available functions for the <code>log-everywhere</code> package</b></summary>
 
+Enter the following in your command line:
 ```
 python3     # MacOS/Linux
 python      # Windows

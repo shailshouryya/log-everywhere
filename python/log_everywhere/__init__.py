@@ -1,11 +1,11 @@
 '''
-Logging package to enable writing all
+Logging module to enable writing all
 program information, corresponding datetime, and thread information
 for every logged event to the console AND
 multiple, DIFFERENT files safely when running multiple threads
-(multi-threading with python standard library's `threading` package).
+(multi-threading with python standard library's `threading` module).
 
-For package usage help, run:
+For module usage help, run:
 
 ```
 from log_everywhere import logger

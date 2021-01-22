@@ -20,7 +20,7 @@
 </p>
 
 <details>
-  <summary><b>Installing the package</b></summary>
+  <summary><b>Installing the module</b></summary>
 
 Enter the following in your command line:
 ```python
@@ -39,7 +39,7 @@ python  -m pip install -U log-everywhere     # Windows
 </details>
 
 <details>
-  <summary><b><code>log-everywhere</code> package example usage</b></summary>
+  <summary><b><code>log-everywhere</code> module example usage</b></summary>
 
 Enter the following in your command line:
 ```
@@ -69,7 +69,7 @@ main()
 </details>
 
 <details>
-  <summary><b>Seeing <b>all</b> available functions for the <code>log-everywhere</code> package</b></summary>
+  <summary><b>Seeing <b>all</b> available functions for the <code>log-everywhere</code> module</b></summary>
 
 Enter the following in your command line:
 ```
@@ -85,13 +85,13 @@ help(log_everywhere.logger)
 from log_everywhere import logger
 help(logger)
 
-# SEEING PACKAGE METADATA
+# SEEING MODULE METADATA
 import log_everywhere
 help(log_everywhere)
 ```
 </details>
 <details>
-  <summary><b>Motivation for creating this package</b></summary>
+  <summary><b>Motivation for creating this module</b></summary>
 
 To see why [Python Standard Library](https://docs.python.org/3/library/)'s [logging](https://docs.python.org/3/library/logging.html) module was insufficient and creating a custom logger was necessary, [see this modification in the `yt-videos-list` package](https://github.com/Shail-Shouryya/yt-videos-list/commit/82a0129d82ea67475af902cf4a8a07c016d853b4). NOTE that the exact implementation differed slighlty in this commit (`yield_logger()` was named `yield_file_writer()`), and support for logging to both the console AND the log file [wasn't added until this commit](https://github.com/Shail-Shouryya/yt-videos-list/commit/fb8311869e89179dcf2bbf2849edcd5f97b216a1)
 

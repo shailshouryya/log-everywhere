@@ -106,7 +106,7 @@ def log(message, logging_locations, show_thread=True, show_datetime=True, pad=' 
     current_time = ''
     if show_thread:
         thread_name = f'[{threading.current_thread().name}]' + ' '
-        thread_name = f'{thread_name:>15}'
+        thread_name = f'{thread_name:>12}'
     if show_datetime:
         current_time = datetime.datetime.now().isoformat() + ' '
     message = f'{pad}{thread_name}{current_time}{message}\n'

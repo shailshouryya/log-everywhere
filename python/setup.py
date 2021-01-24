@@ -12,7 +12,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 setup(
     name                          = 'log_everywhere',
     version                       = '0.0.1',
-    description                   = 'Logging module to enable writing all program information, corresponding datetime, and thread information for every logged event to the console AND multiple, DIFFERENT files safely when running multiple threads (multi-threading).',
+    description                   = 'Logging module to enable writing all program information, corresponding datetime, and thread information for every logged event to the console AND multiple, DIFFERENT files safely when running multiple threads (multi-threading with python standard library\'s `threading` module).',
     long_description              = long_description,
     long_description_content_type = 'text/markdown',
     url                           = 'https://github.com/Shail-Shouryya/log-everywhere',

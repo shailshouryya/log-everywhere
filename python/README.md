@@ -78,15 +78,6 @@ python      # Windows
 ```
 ```python
 import log_everywhere
-help(log_everywhere.logger)
-
-# OR
-
-from log_everywhere import logger
-help(logger)
-
-# SEEING MODULE METADATA
-import log_everywhere
 help(log_everywhere)
 ```
 </details>

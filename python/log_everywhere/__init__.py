@@ -49,7 +49,11 @@ def yield_logger(filepath, log_silently=False):
     Logs all messages to the filepath AND console if log_silently is not set or is set to False.
     Logs all messages to ONLY the filepath if log_silently is set to True.
     '''
-    filepath = filepath.strip('.log')
+    if filepath.endswith('.log'):
+        # explicitly check to see if provided filepath ends with ".log"
+        # since if the filepath does NOT end with ".log" but DOES end with
+        # "l", "o", "g", or ".", those characters will be removed instead
+        filepath = filepath.strip('.log')
     log_file = f'{filepath}.log'
     with open (log_file, 'a', encoding='utf-8') as output_location:
         if log_silently is True: yield (output_location,)
